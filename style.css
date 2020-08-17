@@ -1,0 +1,49 @@
+body
+{
+background-color: cadetblue;
+}
+
+a
+{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+h1
+{
+color: red;
+}
+h2
+{
+color: green;
+}
+h3
+{
+color: blue;
+}
+
+.header
+{
+    color: aliceblue;
+}
+
+div
+{
+    background-color: #0b0c10;
+    color:  #c5c6c7;
+    font-family: 'Roboto', sans-serif;
+
+}
+#div-1
+{
+    width: 300px;
+}
+#div-2
+{
+    width: 50%;
+}
+@media only screen and (max-width: 600px){
+    body{
+        background-color: #fff;
+    }
+}
