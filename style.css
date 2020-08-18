@@ -9,9 +9,19 @@ a
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
+
+ul
+{
+    color: white;
+}
+
+.sub-category{
+    color: yellow;
+}
+
 h1
 {
-color: red;
+color: burlywood;
 }
 h2
 {
