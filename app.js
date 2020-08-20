@@ -45,6 +45,7 @@ let doglist =
         description: "A large cute doggy"
     },
 ];
+
 let catlist =
 [
     {
@@ -68,6 +69,7 @@ let catlist =
         description: "Nigger"
     },
 ];
+
 let micelist =
 [
     {
@@ -101,10 +103,12 @@ categories.dogs.button.onclick = ()=>
 
     doglist.forEach(dog =>
     {
-        categories.dogs.content.innerHTML += `<li>${dog}
+        categories.dogs.content.innerHTML += `
+        <li>
             <span>${dog.name}</span>
             <div>Region: ${dog.region}</div>
-            <div>Description: ${dog.description}</div></li>`;
+            <div>Description: ${dog.description}</div>
+        </li>`;
     }
 );
 }
@@ -117,10 +121,12 @@ categories.cats.button.onclick = ()=>
     
     catlist.forEach(cat =>
     {
-        categories.cats.content.innerHTML += `<li>${cat}
+        categories.cats.content.innerHTML += `
+        <li>
             <span>${cat.name}</span>
             <div>Region: ${cat.region}</div>
-            <div>Description: ${cat.description}</div></li>`;
+            <div>Description: ${cat.description}</div>
+        </li>`;
     }
 );
 }
@@ -133,10 +139,12 @@ categories.mices.button.onclick = ()=>
 
     micelist.forEach(mice =>
     {
-        categories.mices.content.innerHTML += `<li>${mice}
+        categories.mices.content.innerHTML += `
+        <li>
             <span>${mice.name}</span>
             <div>Region: ${mice.region}</div>
-            <div>Description: ${mice.description}</div></li>`;
+            <div>Description: ${mice.description}</div>
+        </li>`;
     }
     );
 }
