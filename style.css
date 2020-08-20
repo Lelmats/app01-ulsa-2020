@@ -3,33 +3,66 @@ body
     background-color: #f0efeb;
 }
 
-h1 {text-align: center;}
-#div-1 {text-align: center;}
 a
+{  
+}
+
+#volver
 {
     color: black;
     font-family: 'Lato', sans-serif;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
+    margin: 8px;
+    border-bottom-style:solid;
+}
+#dogs-link
+{
+    color: black;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 8px;
 }
 
-ul
+#cats-link
 {
-   
+    color: black;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 8px;
+}
+
+#mices-link
+{
+    color: black;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 8px;
+}
+#pet
+{
+    
+    border-left-style: solid;
+    border-left-width: 4px;
+    
+    
 }
 
 .sub-category{
-    color: blue;
-    font-family: 'Yantramanav', sans-serif;
-    font-size: 18px;
-    
+    color: #0081A7;
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
 }
 
 h1
 {
-    color: black;
-    font-family: 'Fredoka One', cursive;
-
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    background-color:#F07167;
+    text-align: center;
 }
 h2
 {
@@ -54,12 +87,20 @@ div
 #div-1
 {
     width: 100%;
+    text-align: center;
 }
 #div-2
 {
     width: 100%;
+    text-align: center;
 }
-
+#contact
+{
+    color:  rebeccapurple;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
 @media only screen and (max-width: 600px)
 {
     body
